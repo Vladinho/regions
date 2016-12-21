@@ -1,0 +1,235 @@
+body{
+    background:#ec7756;
+}
+
+@font-face {
+    font-family: Gothic; /* Гарнитура шрифта */
+    src: url(fonts/Gothic.ttf); /* Путь к файлу со шрифтом */
+   }
+  
+@font-face {
+    font-family: HelveticaNeue; /* Гарнитура шрифта */
+    src: url(fonts/HelveticaNeue.ttf); /* Путь к файлу со шрифтом */
+   }
+
+  
+@font-face {
+    font-family: HelveticaNeueBold; /* Гарнитура шрифта */
+    src: url(fonts/HelveticaNeueBold.ttf); /* Путь к файлу со шрифтом */
+   }
+  
+  
+
+
+header {
+    width: 1160px;
+    height: 80px;
+    display: flex;
+    margin: 50px auto 50px;
+    justify-content: space-between;
+   
+    align-items: center;
+    background-color: #fdfdfd;
+    box-shadow:  0.2em 0.2em 3px #a84f36;
+}
+.logo{
+    font-family: HelveticaNeueBold, Arial;
+    font-size: 16px;
+    font-style: bold;
+    border-right: 1px solid #b6b6b6;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main-menu{
+    display: inline-flex;
+    width: 570px;
+    height: 30px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: HelveticaNeueBd;
+   
+    padding-top: 18px;
+    
+    
+}
+.main-menu a{
+    display: inline-block;
+    
+    text-decoration: none;
+    color: #4d4d4d;
+    
+    
+    
+}
+.main-menu__space{
+    width: 150px;
+}
+@font-face{
+	font-family:"HelveticaNeue";
+	src:url("http://www.freefontsdownload.net/data/502/h/helveticaneue/HelveticaNeueBd.ttf");
+}
+
+.search{
+    margin-right: 40px;
+}
+[type='submit'] {
+    width:30px;
+    height:40px;
+    background: url(img/Glass.jpg) center center no-repeat;
+    border:none;
+    border-right: 1px solid #b6b6b6;
+    
+}
+.main-menu_hover:hover {
+border-bottom: 3px solid #444;
+}
+
+.main-image-block{
+ background: url(img/main-image.jpg) center center no-repeat;
+ display: block;
+ width: 1160px;
+ height: 500px;
+ margin: auto;
+ border: 1px solid #ea704e;
+ position: relative;
+ box-shadow:  0.2em 0.2em 3px #a84f36;
+}
+
+.main-image-block__text{
+    width: 470px;
+    height: 200px;
+    margin-top: 190px;
+    margin-left: 35px;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: helveticaneue;
+}
+
+
+.main-image-block__find{
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 35px;
+    float: left;
+    background-color: #66af74;
+    color: #fff;
+    border: none;
+}
+.main-image-block__never{
+    display: inline-block;
+    float: right;
+    font-family: Gothic;
+    font-size: 72px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    padding: 1px;
+    color:#fff;
+   
+}
+
+
+.main-image-block__find, .main-image-block__never, .good__add{
+    text-transform: uppercase;
+    
+}
+.goods{
+    display:flex;
+    justify-content: space-between;
+    width: 1160px;
+    margin: auto;
+    margin-top: 50px;
+}
+.good{
+    display:flex;
+    flex-flow: row wrap;
+     justify-content: space-around;
+    height:400px;
+    width:360px;
+     box-shadow:  0.2em 0.2em 3px #a84f36;
+    background: #f6f6f6;
+}
+
+.good__image{
+    width:360px;
+    height:240px;
+    background: url(img/good.jpg) center center no-repeat;
+}
+
+.good__add{
+    height:30px;
+    width:110px;
+    margin-top:90px;
+    background: #7ab6ce;
+    border:none;
+    color: #fff;
+    font-family:HelveticaNeueBold;
+    font-size:10px;
+}
+
+.good__text{
+    height:130px;
+    width:120px;
+    font-size:12px;
+    font-family: HelveticaNeue;
+    line-height: 18px;
+    margin-bottom: 20px;
+   
+}
+.good__text span{
+    font-family: HelveticaNeueBold;
+}
+.good__text 32{
+    font-family: HelveticaNeueBold;
+    font-size:18px;
+}
+.good__text h2{
+    font-family: HelveticaNeueBold;
+    font-size:28px;
+}
+a {
+     text-decoration: none;
+}
+
+
+footer {
+    width: 1160px;
+    height: 50px;
+    display: flex;
+    margin: 50px auto 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdfdfd;
+    box-shadow:  0.2em 0.2em 3px #a84f36;
+}
+.logo_footer{
+    font-size:12px;
+}
+
+.social-icons{
+    display: inline-flex;
+    justify-content: space-between;
+    width:130px;
+    margin-right:35px;
+}
+.social-icons__icon{
+    width:20px;
+    height:20px;
+    border:none;
+}
+.social-icons__icon_twitter{
+    background: url(img/Twitter.png) center center no-repeat;
+}
+.social-icons__icon_facebook{
+    background: url(img/Facebook.png) center center no-repeat;
+}
+.social-icons__icon_vimeo{
+    background: url(img/Vimeo.png) center center no-repeat;
+}
+.social-icons__icon_pinterest{
+    background: url(img/Pinterest.png) center center no-repeat;
+}
+    
